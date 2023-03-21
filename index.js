@@ -51,6 +51,7 @@ class Calculator {
 
 const calculate = new Calculator();
 
+
 console.log(calculate.pi);
 console.log(calculate.e);
 console.log(calculate.ratio(5, 7, 300));
