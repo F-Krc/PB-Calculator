@@ -84,8 +84,8 @@ class Calculator {
   }
 
   sqrt(x) {
-    if (typeof x !== 'number') {
-      return `Invalid value. Must be a number`;
+    if (typeof x !== 'number' || x < 0)  {
+      return `Invalid value.`;
     }
     return Math.sqrt(x);
   }
